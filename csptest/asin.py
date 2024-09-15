@@ -1,5 +1,5 @@
 import docx2txt as d2t
-dfile="C:\\Users\\yeshr\\Downloads\\DEN3-Adams 12 Five Star Schools-Donations-08_18_2022.docx"
+dfile="DEN3-Adams 12 Five Star Schools-Donations-08_18_2022.docx"
 asinNum=[]
 #sets the words from the docx file to the variable doc
 doc=d2t.process(dfile)
