@@ -1,5 +1,5 @@
 import docx2txt as d2t
-dfile="DEN3-Adams 12 Five Star Schools-Donations-08_18_2022.docx"
+dfile="filepath"
 asinNum=[]
 #sets the words from the docx file to the variable doc
 doc=d2t.process(dfile)
@@ -29,9 +29,7 @@ for z in doc:
             amountNum.append(doc[num:num2+1])    
     num+=1
 
-amountNum.append(doc[len(doc)-1])
-
-print(asinNum[653]+ ":" + amountNum[653])
+print(asinNum[309]+ ":" + amountNum[309])
 
 
 
