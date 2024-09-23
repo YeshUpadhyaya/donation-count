@@ -34,7 +34,6 @@ class reader():
                     amountNum.append(doc[num:num2+1])    
             num+=1
         amountNum.append(doc[len(doc)-1])
-        print("yo")
         return amountNum
 
 
